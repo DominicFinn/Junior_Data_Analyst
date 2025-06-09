@@ -12,12 +12,14 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 **Skills to Learn:**
 - Common functions: `VLOOKUP`, `INDEX/MATCH`, `IF`, `SUMIFS`, `COUNTIFS`
 - Creating Pivot Tables and Pivot Charts
-- Cleaning and transforming data with Power Query
+- Transforming data
+- Data Storytelling
 
 **Example Projects:**
 - Analyze a sales dataset (monthly revenue by region)
 - Build a dashboard showing total sales, top 5 products, and monthly trends
-- Use Power Query to clean raw customer data (remove duplicates, fill blanks)
+- Reports on customer orders
+
 
 ### 2. SQL for Data Analysis
 
