@@ -86,6 +86,12 @@ Total value of order by product by day
 
 Create a commentary on the report that explains what's been happening. 
 
+What charts looked best?
+
+Were there any spikes in sales?
+
+What data would help you understand the data in more context?
+
 
 
 
