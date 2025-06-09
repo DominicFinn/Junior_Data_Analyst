@@ -1,7 +1,12 @@
 # **Learning Path to Become a Data Analyst in the Microsoft Stack**
 
-Notes on becoming a junior data analyst in the Microsoft stack.
+Notes on becoming a junior data analyst in the Microsoft stack. It's a work in progress.
 
+I'd originally made this https://gist.github.com/DominicFinn/41ffee1876d742638415d60a0b37850f for a friend. It was a bit of an incomplete idea dump which was inspired by my previous dump for javascript https://gist.github.com/DominicFinn/3ecb07c7bac2d6fa49a3d931c8ccc0ba
+
+At the end, you should have some experiences or using the tools in data analysis. You will have opinions on which tools are best for which tasks. 
+
+Expand on each section as needed by moidifiying my scripts to create different types of data and projects. This will help you to create a bigger portfolio of work. 
 
 ---
 
@@ -10,9 +15,10 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 ### 1. Excel Essentials
 
 **Skills to Learn:**
-- Common functions: `VLOOKUP`, `INDEX/MATCH`, `IF`, `SUMIFS`, `COUNTIFS`
+- Common functions: `VLOOKUP`, `IF`, `SUMIFS`, `COUNTIFS`
 - Creating Pivot Tables and Pivot Charts
 - Transforming data
+- Choosing the best chart for the data
 - Data Storytelling
 
 **Example Projects:**
@@ -28,11 +34,21 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 - Joins (`INNER`, `LEFT`, `RIGHT`, `FULL`)
 - Aggregations with `GROUP BY`, filtering with `HAVING`
 - Common Table Expressions (CTEs), Window Functions
+- Indexing
+- Dealing with tricky data
+- Dealing with missing data
+- Dealing with outliers and data quality issues
+- Dealing with time-based data
+
+Will think about this more. 
 
 **Example Projects:**
-- Query a customer orders database to show average order value per region
-- Use a CTE to find the top 3 selling products each month
+- Query a customer orders database to show average order value per region 
+
 - Calculate moving averages and running totals using window functions
+
+Can keep this simple for now.
+
 
 ---
 
@@ -56,14 +72,14 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 **Skills to Learn:**
 - Connecting to data sources: Excel, SQL Server, web APIs
 - Building reports with visuals, slicers, and filters
-- Using DAX functions: `CALCULATE`, `FILTER`, `SUMX`, `ALL`
+- Understanding measures
 
 **Example Projects:**
 - Build an interactive sales dashboard with filters by region and product
-- Use DAX to create YoY growth measures and profit margin KPIs
+- Create YoY growth measures and profit margin KPIs
 - Visualize customer churn by month and segment using a line chart
 
-### 5. Microsoft Access (Optional)
+### 5. .Net Fun (Optional)
 
 **Skills to Learn:**
 - Designing tables and relationships
@@ -83,7 +99,6 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 **Skills to Learn:**
 - Understanding Azure SQL, Azure Synapse Analytics
 - Basics of Azure Data Lake, Azure Blob Storage
-- Intro to data security, compliance, and data governance
 
 **Example Projects:**
 - Load CSV data into Azure SQL Database and run simple queries
@@ -101,10 +116,35 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 - `matplotlib`/`seaborn` for visualizations
 - Connecting to SQL Server via `pyodbc` or `sqlalchemy`
 
+
 **Example Projects:**
 - Analyze a CSV of ecommerce transactions: average basket size, repeat rate
 - Visualize distribution of order amounts with histograms and boxplots
 - Write a script to automate daily data pull from SQL Server and save to Excel
+
+
+### 8. Machine learning and data mining techniques with Python 
+
+**Skills to Learn:**
+- apriori algorithm
+- k-means clustering / cluster analysis
+- categorical data, classification
+- regression analysis
+- decision trees
+- random forests
+- neural networks / deep learning
+- support vector machines
+- gradient boosting
+
+**Example Projects:**
+- Use the apriori algorithm to find associations between products (e.g. products that are often bought together)
+- Use k-means clustering to group customers (e.g. customers with similar purchase history)
+- Use decision trees to predict customer churn (e.g. predict which customers are likely to churn)
+- Use rule based classification to look at IoT data and predict which devices are likely to fail
+
+Add more fun here when the time comes. This will be the best bit.
+
+Brucey bonus will be: learning to deploy something so it can be used by a business. 
 
 ---
 
@@ -121,13 +161,15 @@ Notes on becoming a junior data analyst in the Microsoft stack.
 
 **Skills to Practice:**
 - Explaining projects clearly (STAR format)
+- Taking a brief and turning it into a project
 - Writing SQL JOINs and aggregations under time pressure
-- Creating DAX measures on the fly
+- Creating measures on the fly in Power BI
+- Talking coherently about data
 
 **Example Activities:**
 - Mock interview: Explain how you cleaned and visualized messy data
 - SQL challenge: Find the second highest salary in a table
-- DAX challenge: Create a measure for average daily revenue excluding weekends
+- Power BI challenge: Create a measure for average daily revenue excluding weekends
 
 ---
 
