@@ -2,6 +2,9 @@
 
 Notes on becoming a junior data analyst in the Microsoft stack. It's a work in progress.
 
+## Assumptions
+Basic excel skills, formatting, creating graphs, creating tables, sorting, filtering.
+
 I'd originally made this https://gist.github.com/DominicFinn/41ffee1876d742638415d60a0b37850f for a friend. It was a bit of an incomplete idea dump which was inspired by my previous dump for javascript https://gist.github.com/DominicFinn/3ecb07c7bac2d6fa49a3d931c8ccc0ba
 
 At the end, you should have some experiences or using the tools in data analysis. You will have opinions on which tools are best for which tasks. 
